@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchContainer / matches snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dispatchSearch": [Function],
+      "filterKey": "NONE",
+      "handleSearchSubmit": [Function],
+      "handleSetFilter": [Function],
+      "searchResults": Array [],
+      "searchTerm": "",
+    }
+  }
+>
+  <h1>
+    Simple Search and Filter
+  </h1>
+  <SearchInput />
+  <SearchFilter />
+  <SearchResults />
+</ContextProvider>
+`;
